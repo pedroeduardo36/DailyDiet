@@ -1,11 +1,11 @@
+import { Highlight } from '../Highlight'
+import { Container } from "./styles"
 
-import { Container, Text } from "./styles"
 export function PercentageCard() {
     return (
 
         <Container>
-            <Text>90,28%</Text>
-            <Text>Das refeições dentro da dieta</Text>
+            <Highlight title="90,45%" subtitle="De refeições dentro da dieta" />
         </Container>
     )
 }
