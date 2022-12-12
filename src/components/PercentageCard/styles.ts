@@ -10,8 +10,7 @@ export const Container = styled(TouchableOpacity)`
   align-items: center;
   justify-content: center;
 
-  color: #e5f0db;
-  background-color: #e5f0db;
+  background-color: ${({theme}) => theme.COLORS.GREEN_MID};
 `;
 
 export const Text = styled.Text`
