@@ -1,4 +1,5 @@
 import { Home } from "@screens/Home";
+import { Stats } from "@screens/Stats";
 import theme from "@theme/index";
 import { ThemeProvider } from "styled-components/native";
 import { ActivityIndicator, StatusBar } from "react-native";

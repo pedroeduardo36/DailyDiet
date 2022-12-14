@@ -19,12 +19,11 @@ export const HourView = styled.View`
   margin-right: 10px;
   border-right-width: 1px;
   border-color: ${({ theme }) => theme.COLORS.GRAY_200};
-
 `;
 
 export const Hour = styled.Text`
   ${({ theme }) => css`
-    font-size: ${theme.FONT_SIZE.MD};
+    font-size: ${theme.FONT_SIZE.MD}px;
   `}
   font-weight: bold;
 `;
@@ -40,6 +39,6 @@ export const Ball = styled.View`
   width: 18px;
   height: 18px;
   border-radius: 18px;
-  color: ${({ theme }) => theme.COLORS.GREEN_MID};
+
   background-color: ${({ theme }) => theme.COLORS.GREEN_MID};
 `;

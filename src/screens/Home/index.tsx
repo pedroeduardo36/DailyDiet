@@ -8,7 +8,7 @@ export function Home() {
       <Header />
       <PercentageCard />
       <Text
-        style={{ marginTop: 48, marginBottom: 12, alignSelf: "flex-start" }}
+        style={{ fontSize: 16, marginTop: 48, marginBottom: 12, alignSelf: "flex-start" }}
       >
         Refeições
       </Text>
