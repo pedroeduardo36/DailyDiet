@@ -1,8 +1,15 @@
 import styled from "styled-components/native";
 import { TouchableOpacity } from "react-native";
 
+export type PercentageCardStyleProps = 'PRIMARY' | 'SECONDARY';
+
+type Props = {
+  type: PercentageCardStyleProps
+}
  
-export const Container = styled(TouchableOpacity)`
+export const Container = styled(TouchableOpacity).attrs<Props>(({theme, type}) => ({
+
+}))`
   height: 102px;
   width: 100%;
 
@@ -14,7 +21,7 @@ export const Container = styled(TouchableOpacity)`
   align-items: center;
   justify-content: center;
 
-  background-color: ${({theme}) => theme.COLORS.GREE_LIGHT};
+  background-color:  ${({theme}) => theme.COLORS.GREE_LIGHT};
 `;
 
 export const RowContainer = styled.View`
